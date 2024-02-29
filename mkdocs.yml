@@ -1,0 +1,85 @@
+site_name: 予之路
+site_author: 拾豆叁
+site_description: 请别挡着我的阳光。
+
+copyright: Copyright &copy; 2019 - 2024 <a href="https://github.com/shidou3" target="_blank" rel="noopener noreferrer">予之路</a> All Rights Reserved.
+
+theme:
+  name: material
+  language: zh
+  font:
+    text: Noto Sans Simplified Chinese
+    code: Roboto Mono
+
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - header.autohide
+    - search.highlight
+    - search.share
+    - search.suggest
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shidou3
+      name: Github
+
+nav:
+  - "Home":
+      - "Index": index.md
+  - "Basic":
+      - "数据结构与算法": Basic/ds-algorithms.md
+      - "体系结构": Basic/arch.md
+      - "操作系统": Basic/os.md
+      - "计算机网络": Basic/net.md
+      - "数据库系统": Basic/db.md
+      - "编译原理": Basic/compile.md
+      - "汇编语言": Basic/assembly.md
+      - "密码学": Basic/crypto.md
+      - "计算机图形学": Basic/graph.md
+  - "Tools":
+      - "JavaScript": Tools/JavaScript.md
+  - "Leetcode":
+      - "简单": LeetCode/easy.md
+      - "中等": LeetCode/normal.md
+      - "困难": LeetCode/hard.md
+  - "术数": EasyBook/index.md
+  - "杂章": Other/index.md
