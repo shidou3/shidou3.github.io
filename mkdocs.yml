@@ -82,5 +82,6 @@ nav:
       - "简单": LeetCode/easy.md
       - "中等": LeetCode/normal.md
       - "困难": LeetCode/hard.md
+  - "Math": Math/index.md
   - "术数": EasyBook/index.md
   - "杂章": Other/index.md
