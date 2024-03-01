@@ -77,6 +77,7 @@ nav:
       - "计算机图形学": Basic/graph.md
   - "Tools":
       - "JavaScript": Tools/JavaScript.md
+      - "Rust": Tools/Rust.md
   - "Leetcode":
       - "简单": LeetCode/easy.md
       - "中等": LeetCode/normal.md
